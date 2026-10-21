@@ -1,0 +1,20 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #d168a9;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+.contenedor {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+canvas {
+  background-color: #7af3b9;
+  border: 3px solid #38bdf8;
+  display: block;
+  margin: 20px auto;
+}
