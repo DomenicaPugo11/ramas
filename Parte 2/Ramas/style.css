@@ -1,3 +1,57 @@
-body { font-family: sans-serif; background-color: #f4f4f4; color: #333; padding: 20px; }
-.comando { background: white; padding: 15px; margin-bottom: 10px; border-left: 5px solid #2ecc71; border-radius: 4px; }
-h1 { color: #2c3e50; }
+body {
+    font-family: sans-serif;
+    background-color: #fdf6fb;
+    color: #4a4458;
+    padding: 30px;
+    margin: 0;
+}
+
+header {
+    background-color: #d9c2f0;
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 5px 15px #d8cce3;
+}
+
+h1 {
+    color: #5b4778;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #6d607c;
+    font-size: 18px;
+}
+
+#contenedor {
+    max-width: 900px;
+    margin: auto;
+}
+
+.comando {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 18px;
+    border-left: 6px solid #a8d8ea;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px #e6ddea;
+    transition: 0.3s;
+}
+
+.comando:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px #d8cce3;
+}
+
+.comando h2 {
+    color: #7b5ea7;
+    margin-top: 0;
+}
+
+.comando p {
+    color: #665f6d;
+    font-size: 16px;
+    line-height: 1.6;
+}
